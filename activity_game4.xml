@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fando.trenazher.game2"
+    android:background="#dac99f"
+    android:id="@+id/realativelayout4">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:layout_alignBottom="@+id/Button_start1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:id="@+id/linearLayout2"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ф"
+            android:id="@+id/btn13"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ы"
+            android:id="@+id/btn14"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="в"
+            android:id="@+id/btn15"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="а"
+            android:id="@+id/btn16"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="п"
+            android:id="@+id/btn17"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="р"
+            android:id="@+id/btn18"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="о"
+            android:id="@+id/btn19"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="л"
+            android:id="@+id/btn20"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="д"
+            android:id="@+id/btn21"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ж"
+            android:id="@+id/btn22"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="э"
+            android:id="@+id/btn23"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="й"
+            android:id="@+id/btn1"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ц"
+            android:id="@+id/btn2"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="у"
+            android:id="@+id/btn3"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="к"
+            android:id="@+id/btn4"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="е"
+            android:id="@+id/btn5"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="н"
+            android:id="@+id/btn6"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="г"
+            android:id="@+id/btn7"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ш"
+            android:id="@+id/btn8"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="щ"
+            android:id="@+id/btn9"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="з"
+            android:id="@+id/btn10"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="х"
+            android:id="@+id/btn11"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ъ"
+            android:id="@+id/btn12"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/linearLayout3"
+        android:layout_above="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="я"
+            android:id="@+id/btn24"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ч"
+            android:id="@+id/btn25"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="с"
+            android:id="@+id/btn26"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="м"
+            android:id="@+id/btn27"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="и"
+            android:id="@+id/btn28"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="т"
+            android:id="@+id/btn29"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ь"
+            android:id="@+id/btn30"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="б"
+            android:id="@+id/btn31"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="ю"
+            android:id="@+id/btn32"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Путями доброты"
+        android:id="@+id/Button_start1"
+        android:layout_above="@+id/textView3"
+        android:layout_toLeftOf="@+id/Button_start3"
+        android:layout_toStartOf="@+id/Button_start3" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+
+        android:id="@+id/scrollView">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView"
+            android:textSize="25sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/linearLayout4"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="80dp">
+
+        <Button
+            android:text=","
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn34"
+            android:textStyle="normal|bold"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:text="."
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn35"
+            android:textStyle="normal|bold"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:text=":"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn36"
+            android:textStyle="normal|bold"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:text="Пробел"
+            android:layout_height="70dp"
+            android:id="@+id/btn33"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:text="-"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn37"
+            android:textStyle="normal|bold"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:text="@string/question"
+            android:id="@+id/btn38"
+            android:layout_weight="0"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:text="!"
+            android:id="@+id/btn39"
+            android:layout_weight="0"
+            android:background="@android:drawable/btn_default"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Что есть добро?"
+        android:id="@+id/Button_start2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/Button_start4"
+        android:layout_toEndOf="@+id/Button_start4" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Характер человека"
+        android:id="@+id/Button_start3"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Калоши и мороженое"
+        android:id="@+id/Button_start4"
+        android:layout_alignTop="@+id/Button_start3"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Серая сказка"
+        android:id="@+id/Button_start5"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:id="@+id/linearLayout5"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/linearLayout"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
